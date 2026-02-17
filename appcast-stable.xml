@@ -4,18 +4,18 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>ErikSon Message for WhatsApp (stable)</title>
-    <link>https://github.com/ErikSonTech/ErikSon-Message/releases/download/v1.0.0/appcast-stable.xml</link>
+    <link>https://github.com/ErikSonTech/ErikSon-Message-Releases/releases/download/v1.0.0/appcast-stable.xml</link>
     <description>Internal updates for ErikSon Message for WhatsApp</description>
     <item>
       <title>Version 1.0.0</title>
-      <pubDate>Tue, 17 Feb 2026 21:39:45 +0000</pubDate>
-      <sparkle:version>202602172239</sparkle:version>
+      <pubDate>Tue, 17 Feb 2026 21:45:07 +0000</pubDate>
+      <sparkle:version>202602172245</sparkle:version>
       <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
       
       <enclosure
-        url="https://github.com/ErikSonTech/ErikSon-Message/releases/download/v1.0.0/ErikSon%20Message-1.0.0-stable.zip"
-        sparkle:edSignature="Oamzx4O1CFa57qhalXF/8hv7bwPvn9TSmp5iGmhfQexVrRUh5xckwVuBstNYuWQwQfoORbv6C2N48/6NqZjlCw=="
-        length="4954799"
+        url="https://github.com/ErikSonTech/ErikSon-Message-Releases/releases/download/v1.0.0/ErikSon%20Message-1.0.0-stable.zip"
+        sparkle:edSignature="vQt9ZLzItC6iY+LHwzeyCEULDoWXg1cX2H8YGx4K6IVxrhKh+IE9H68qWgTmJkqVydFnYzoEqyJslLNimX/wBg=="
+        length="4954827"
         type="application/octet-stream" />
     </item>
   </channel>
