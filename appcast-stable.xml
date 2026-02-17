@@ -8,14 +8,14 @@
     <description>Internal updates for ErikSon Message for WhatsApp</description>
     <item>
       <title>Version 1.0.0</title>
-      <pubDate>Tue, 17 Feb 2026 21:48:35 +0000</pubDate>
-      <sparkle:version>202602172248</sparkle:version>
+      <pubDate>Tue, 17 Feb 2026 21:58:57 +0000</pubDate>
+      <sparkle:version>202602172258</sparkle:version>
       <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
       
       <enclosure
         url="https://github.com/ErikSonTech/ErikSon-Message-Releases/releases/download/v1.0.0/ErikSon.Message-1.0.0-stable.zip"
-        sparkle:edSignature="vQt9ZLzItC6iY+LHwzeyCEULDoWXg1cX2H8YGx4K6IVxrhKh+IE9H68qWgTmJkqVydFnYzoEqyJslLNimX/wBg=="
-        length="4954827"
+        sparkle:edSignature="yu/y1WJs1Irk4RZoxXcGoxK580WcPFvPlgjl2mgFwIp74wJxiVT18U0WnuBq13fTbkKdiW10w5/RjJ1v9eGFCQ=="
+        length="5033522"
         type="application/octet-stream" />
     </item>
   </channel>
