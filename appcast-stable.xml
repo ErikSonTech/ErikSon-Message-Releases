@@ -7,6 +7,23 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-Message-Releases/main/appcast-stable.xml</link>
     <description>Updates for ErikSon Message for WhatsApp</description>
     <item>
+      <title>Version 1.0.2</title>
+      <pubDate>Wed, 18 Feb 2026 01:28:55 +0000</pubDate>
+      <sparkle:version>202602180228</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Fixed</h3>
+<ul>
+<li>Quick Reply now inserts text into the message composer instead of the search bar</li>
+<li>Improved composer detection using WhatsApp Web's conversation-compose-box-input selector</li>
+<li>dist folder structure now uses channel/version layout for better organization</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-Message-Releases/releases/download/v1.0.2/ErikSon.Message-1.0.2-stable.zip"
+        sparkle:edSignature="dHo6x9CmFUwee+vu4xUl+0leAY49U35/ZBg4Of2mI6CdVFDUGZXmB1NxWNM6aDyZwAD6x4EZFdJc60+UMsnXDg=="
+        length="6787328"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <pubDate>Tue, 17 Feb 2026 22:54:24 +0000</pubDate>
       <sparkle:version>202602172354</sparkle:version>
