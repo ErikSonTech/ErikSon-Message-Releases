@@ -7,6 +7,37 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-stable.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 1.0.7</title>
+      <pubDate>Mon, 23 Feb 2026 18:22:39 +0000</pubDate>
+      <sparkle:version>202602231922</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Added</h3>
+<ul>
+<li>Extracted 5 dedicated coordinators from AppState: ConnectionCoordinator, NotificationCoordinator, QuickReplyCoordinator, UpdateCoordinator, WebViewCoordinator</li>
+<li>Added 5 dependency injection protocols for full testability: ConnectionServiceProtocol, NotificationServiceProtocol, QuickReplyServiceProtocol, UpdateServiceProtocol, WebViewBridgeProtocol</li>
+<li>Created ChatViewModel and SettingsViewModel to decouple views from business logic</li>
+<li>Added 4 new test suites: ConnectionCoordinatorTests, NotificationCoordinatorTests, QuickReplyCoordinatorTests, UpdateCoordinatorTests</li>
+<li>Storage key migration system for seamless user data transition</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Complete rebrand: all internal references updated from ErikSonMessage to DeskChat</li>
+<li>URL scheme changed from eriksonmsg:// to deskchat://</li>
+<li>Sparkle config path moved to ~/.config/deskchat/</li>
+<li>Removed unused SocketIO dependency (cleaned from Package.resolved and project)</li>
+<li>Synced version numbers across project.yml and pbxproj</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Fixed storage key consistency across the app with automatic migration</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.7/DeskChat-1.0.7-stable.zip"
+        sparkle:edSignature="70vcYuCnwtCjPKPH8jyqpP5qh49FGsS5OzCklKxgsrRtHUh9nfqP4K5H33ZXyz/lz8G38Ux0qd5NLABNrMOjAQ=="
+        length="7301734"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.6</title>
       <pubDate>Mon, 23 Feb 2026 16:28:20 +0000</pubDate>
       <sparkle:version>202602231728</sparkle:version>
