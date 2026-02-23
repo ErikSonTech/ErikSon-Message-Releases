@@ -4,8 +4,25 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>DeskChat for WhatsApp (stable)</title>
-    <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-Message-Releases/main/appcast-stable.xml</link>
+    <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-stable.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
+    <item>
+      <title>Version 1.0.5</title>
+      <pubDate>Mon, 23 Feb 2026 16:05:04 +0000</pubDate>
+      <sparkle:version>202602231705</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Added</h3>
+<h3>Changed</h3>
+<ul>
+<li>Updated Sparkle update feed URLs to new releases repository (ErikSon-DeskChat-Releases)</li>
+</ul>
+<h3>Fixed</h3>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.5/DeskChat-1.0.5-stable.zip"
+        sparkle:edSignature="8vVUW6pElu3LHHVc//cBprbyqJKX9B5UfKtfj02p5Je7JreSyhT8BkAZZclmN+FIlp3febaSr77UU1SbbzUrAg=="
+        length="7775859"
+        type="application/octet-stream" />
+    </item>
     <item>
       <title>Version 1.0.4</title>
       <pubDate>Mon, 23 Feb 2026 15:59:38 +0000</pubDate>
