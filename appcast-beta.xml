@@ -7,6 +7,34 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-beta.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 1.0.9-beta.1</title>
+      <pubDate>Mon, 23 Feb 2026 19:56:48 +0000</pubDate>
+      <sparkle:version>202602232056</sparkle:version>
+      <sparkle:shortVersionString>1.0.9-beta.1</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<h3>Added</h3>
+<ul>
+<li>Continuous avatar detection via MutationObserver — watches DOM for the user's profile picture appearing after QR scan or session restore</li>
+<li>Periodic avatar refresh every 5 minutes to detect WhatsApp profile picture changes</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Rewrote avatar probing with 6 modern strategies targeting WhatsApp Web 2025+ layout (data-testid selectors, webpack cache scan, profile panel click)</li>
+<li>Split avatar probing into quick (DOM scan) and deep (click) modes to minimize UI disruption</li>
+<li>Extended avatar probe window from 90s (12 attempts) to ~3.5min (18 attempts) with adaptive timing</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Fixed avatar not showing for account profile — probing now uses modern WhatsApp Web selectors instead of deprecated nav/Store APIs</li>
+<li>Fixed blob URL avatar extraction using fetch+FileReader instead of canvas (avoids CORS taint errors)</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.9-beta.1-beta/DeskChat-1.0.9-beta.1-beta.zip"
+        sparkle:edSignature="x/ROaQS/PNoJaVMWwvBMwyeL9X3ym8aniN/2BT/apLyfSAsBsvThERzI7w0VFge7Kc19lMIPkF3xAk2jPoN1Cg=="
+        length="7304565"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.8-beta.1</title>
       <pubDate>Mon, 23 Feb 2026 18:23:47 +0000</pubDate>
       <sparkle:version>202602231923</sparkle:version>
