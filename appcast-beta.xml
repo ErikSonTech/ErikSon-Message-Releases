@@ -7,6 +7,21 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-beta.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 1.0.11-beta.1</title>
+      <pubDate>Mon, 23 Feb 2026 20:23:44 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>1.0.11-beta.1</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<h3>Added</h3>
+<h3>Changed</h3>
+<h3>Fixed</h3>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.11-beta.1-beta/DeskChat-1.0.11-beta.1-beta.zip"
+        sparkle:edSignature="faSI6yfMmeEZ8AUWIwIQbOLtAAAMbiq6FMYh6jlbcBEPnp1nyAxi9Qw9Sgx/aUT2IqCDJkN/LDai7NWkoMG0DA=="
+        length="7305593"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.10-beta.1</title>
       <pubDate>Mon, 23 Feb 2026 20:04:27 +0000</pubDate>
       <sparkle:version>18</sparkle:version>
