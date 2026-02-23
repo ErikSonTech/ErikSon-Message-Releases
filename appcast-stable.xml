@@ -7,6 +7,23 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-stable.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 1.0.6</title>
+      <pubDate>Mon, 23 Feb 2026 16:28:20 +0000</pubDate>
+      <sparkle:version>202602231728</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Added</h3>
+<h3>Changed</h3>
+<h3>Fixed</h3>
+<ul>
+<li>Fixed Sparkle auto-update signature validation ("improperly signed" error) by properly code-signing the app bundle before distribution</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.6/DeskChat-1.0.6-stable.zip"
+        sparkle:edSignature="bs1EnaWTZDSX/o36sfkebtrwRKV23olUAeHrIUduARtg/ph/VlnOZ4HKzARsOYfqXgiDwaeGqpdU3dEZ1YLZDw=="
+        length="7809684"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.5</title>
       <pubDate>Mon, 23 Feb 2026 16:05:04 +0000</pubDate>
       <sparkle:version>202602231705</sparkle:version>
