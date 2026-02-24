@@ -7,6 +7,30 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-beta.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 1.0.12-beta.1</title>
+      <pubDate>Tue, 24 Feb 2026 12:51:41 +0000</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>1.0.12-beta.1</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<h3>Fixed</h3>
+<ul>
+<li>Corregida la previsualización de documentos (PDF, Word, etc.) — ahora se abren en una ventana emergente dentro de la app en vez de intentar abrirlos en el navegador del sistema</li>
+<li>Corregido el avatar de perfil de WhatsApp que no aparecía en la barra lateral de cuentas — nueva estrategia que detecta la foto de perfil directamente desde la barra de navegación de WhatsApp Web</li>
+<li>Corregida condición de carrera en la caché de avatares que podía impedir la carga cuando varias vistas solicitaban la misma imagen simultáneamente</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Arranque instantáneo: la app ya no muestra "Verificando sesión…" si la sesión fue validada en las últimas 24 horas — la verificación se realiza en segundo plano</li>
+<li>Mejorada la detección pasiva de avatares para monitorizar también la barra de navegación (no solo el panel de Ajustes)</li>
+<li>El interceptor de descargas blob ahora distingue correctamente entre descarga y previsualización de documentos</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.12-beta.1-beta/DeskChat-1.0.12-beta.1-beta.zip"
+        sparkle:edSignature="21UtSkyJnEqaZlPnafL/0UPQY3Ckhm47mq7i33EtAD5+yMaVFdMob8VYIF7YrkCtBiCWOxx1MdVXzrxHiGDUBg=="
+        length="7450199"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.11-beta.2</title>
       <pubDate>Tue, 24 Feb 2026 11:56:47 +0000</pubDate>
       <sparkle:version>21</sparkle:version>
