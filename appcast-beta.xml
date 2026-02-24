@@ -7,6 +7,34 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-beta.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 1.0.14-beta.1</title>
+      <pubDate>Tue, 24 Feb 2026 18:38:51 +0000</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>1.0.14-beta.1</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<h3>Added</h3>
+<ul>
+<li>Selector de avatar en la configuración de cuenta — ahora puedes elegir una imagen personalizada como foto de perfil de tu cuenta directamente desde Ajustes</li>
+<li>Botón para eliminar la imagen de avatar y volver al icono con iniciales</li>
+<li>Las imágenes de avatar se redimensionan automáticamente a 256×256 px para un rendimiento óptimo</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Nuevo sistema de avatar: la foto de perfil de cada cuenta ahora se elige manualmente en vez de intentar extraerla de WhatsApp Web (que era inestable y dejaba de funcionar con cada actualización de WhatsApp)</li>
+<li>Fallback mejorado con iniciales de color cuando no se ha seleccionado ninguna imagen</li>
+<li>Eliminadas ~600 líneas de código JavaScript de scraping de avatares de WhatsApp Web, simplificando enormemente el mantenimiento</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Solucionado el problema recurrente de que el avatar de perfil no se mostraba o mostraba la foto equivocada — el nuevo sistema manual es 100% fiable</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.14-beta.1-beta/DeskChat-1.0.14-beta.1-beta.zip"
+        sparkle:edSignature="UJ9cybWa5oybAt1OXRsH6QOegH4CIAP8StKO2ukWHx7rzlAUoO8ytW8BTle3OJlV8cE1VZ/zuR1wx2LD1UjJAw=="
+        length="7442331"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.13-beta.1</title>
       <pubDate>Tue, 24 Feb 2026 13:19:47 +0000</pubDate>
       <sparkle:version>25</sparkle:version>
